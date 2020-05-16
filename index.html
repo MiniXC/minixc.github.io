@@ -1,34 +1,97 @@
-<!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>cdminix - Christoph Minixhofer</title>
-        <link rel="stylesheet" href="css/main.css"/>
-        <script src="//use.typekit.net/ofw0vow.js"></script>
-        <script>try{Typekit.load();}catch(e){}</script>
-    </head>
-    <body>
-        <div class="container">
-            <div class="avatar"></div>
-            <h1>Hi! I'm Christoph Minixhofer.</h1>
-            <p>
-                My new website will be located here and is currently under development.
-            </p>
-            <p> You can contact me anytime at
-                <a href="mailto:christoph.minixhofer@gmail.com">                 
-                    christoph.minixhofer@gmail.com
-                </a>
-            </p>
-            <br/><br/><hr/>
-            <div class="news">
-                <h1>News</h1>
-                <div class="mockup-01"></div>
-                <p>May 17th, 2015 - 1st Mockup: Octo</p>
-                <div class="wireframe-01"></div>
-                <p>May 15th, 2015 - 1st Wireframe: Octo</p>
-                <div class="thumbnails"></div>
-                <p>May 15th, 2015 - The first thumbnails</p>
-            </div>
-        </div>
-    </body>
+
+<head>
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">-->
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <pre>Christoph Minixhofer</pre>
+            <ul>
+                <li><a href='#About'>About</a></li>
+                <li><a href='#Blog'>Blog</a></li>
+                <li><a href='#Contact'>Contact Me</a></li>
+                <li><a href='https://github.com/MiniXC'>Github ↗</a></li>
+            </ul>
+        </nav>
+        <h1>
+            <pre
+                style='left:50%;transform:translateX(-50%);position:relative;color:var(--color)'>&lt;sideprojects&gt;</pre>
+        </h1>
+        <blockquote>This blog exists to help me finish things. If you find helpful stuff here, that's a bonus.</blockquote>
+    </header>
+    <main>
+        <section>
+            <aside>
+                <article>
+                    <h3>This Website</h3>
+                    <p>If you want to hear about no-class css frameworks, the transform centering trick, and formspree, this might be for you.
+                    </p>
+                    <!--<a href="" target="_blank"><em>Article ↗</em></a>-->
+                    <br>
+                    <i>Coming soon</i>
+                    <!--<i>Published: <time pubdate datetime="2020-05-16">16th May, 2020</time></i>-->
+                </article>
+            </aside>
+        </section>
+        <h1 style="text-align: center;">
+            <pre
+                style='left:50%;transform:translateX(-50%);position:relative;color:var(--color)'>&lt;/sideprojects&gt;</pre>
+        </h1>
+    </main>
+    <footer>
+        <hr>
+        <section>
+            <header>
+                <h1 id='About'>When is a side project done?</h1>
+                <p>
+                    I want this question to be easy to answer, but it usually really isn't.
+                    <br>
+                    This leads to me having the following cycle of neverending and multiplying side projects.
+                <aside style='text-align: left;left:50%;transform:translateX(-50%);position:relative;'>
+                    <img src='loop-arrow.png'
+                        style="position: absolute; transform: translateX(-55%) translateY(-21%) rotate(220deg) scale(.33)">
+                    <p>get exited about an idea</p>
+                    <br>
+                    <p>put in X hours to make it work</p>
+                    <br>
+                    <p style='font-style: italic;'>... oh, is that another, shinier idea?</p>
+                </aside>
+                <br>
+                <h3>Defintion of Done</h3>
+                <p>
+                    From the time of writing (May 2020) on, I want to avoid this cycle.
+                    <br>
+                    When I am ready to call a side project done,
+                    or want to move on to something else,
+                    I will post about it here.
+                </p>
+                <pre>I hope this works out.</pre>
+                </p>
+            </header>
+        </section>
+        <hr>
+        <section>
+            <header>
+                <h1 id='Contact'>Contact Me</h1>
+                <p>Any questions or queries? Just want to say hi?<br>Tweet me <a href='https://twitter.com/cdminix'>@cdminix</a> or use the form below ↓</p>
+            </header>
+            <form action="https://formspree.io/mzbjdzyo" method="POST">
+                <label>
+                    Your email:
+                    <input type="text" name="_replyto">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message" style='width:40em;height: 15em;'></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </footer>
+</body>
+
 </html>
