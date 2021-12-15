@@ -32,12 +32,12 @@ var fileinclude = require('gulp-file-include');
 
 const paths = {
     dist: {
-        base: './dist/',
-        css: './dist/css',
-        html: './dist/html',
-        assets: './dist/assets',
-        img: './dist/assets/img',
-        vendor: './dist/vendor'
+        base: './docs/',
+        css: './docs/css',
+        html: './docs/html',
+        assets: './docs/assets',
+        img: './docs/assets/img',
+        vendor: './docs/vendor'
     },
     dev: {
         base: './html&css/',
